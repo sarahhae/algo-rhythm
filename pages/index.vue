@@ -3,7 +3,7 @@
     <div>
       <Logo />
       <h1 class="title">
-        Algo-rhythm
+        Algo-rhythm fixed git
       </h1>
       <div class="links">
         <h2>
@@ -18,7 +18,7 @@
 import axios from 'axios';
 
 export default {
-  
+
 }
 </script>
 
