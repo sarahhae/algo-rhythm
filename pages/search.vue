@@ -16,6 +16,7 @@
 
 <script>
 import axios from "axios";
+
 export default {
   data() {
     return {
@@ -26,7 +27,6 @@ export default {
     keyPressed(event) {
       var key = event.target.value;
       axios
-        // .get("https://api.spotify.com/v1/search?q=" + key + "&type=track")
         .get(
           "https://api.spotify.com/v1/search?q=" + key + "&amp;type=cloudcast"
         )
